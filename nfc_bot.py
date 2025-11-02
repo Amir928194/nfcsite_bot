@@ -5,7 +5,7 @@ from datetime import datetime
 import time
 
 # ⚠️ ВАЖНО: ЗАМЕНИТЕ ЭТИ ДАННЫЕ НА РЕАЛЬНЫЕ!
-BOT_TOKEN = "8343445533:AAG6dFqvdzDo_ymtmcWBv3xLHZOZ-kZzjvs"  # Получите у @BotFather
+BOT_TOKEN = "7825783356:AAG5zVMn3-J0ErwFMDkChzRZ2cg2Ysn99zY"  # Получите у @BotFather
 ADMIN_IDS = [781193231, 722336160]  # Ваш ID (узнайте у @userinfobot)
 
 # Создаем бота
@@ -305,4 +305,5 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"❌ Ошибка при запуске бота: {e}")
         print("Проверьте токен бота и подключение к интернету")
+
         time.sleep(5)

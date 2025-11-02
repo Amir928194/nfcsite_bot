@@ -5,8 +5,8 @@ from datetime import datetime
 import time
 
 # ⚠️ ВАЖНО: ЗАМЕНИТЕ ЭТИ ДАННЫЕ НА РЕАЛЬНЫЕ!
-BOT_TOKEN = "7825783356:AAG5zVMn3-J0ErwFMDkChzRZ2cg2Ysn99zY"  # Получите у @BotFather
-ADMIN_IDS = [781193231]  # Ваш ID (узнайте у @userinfobot)
+BOT_TOKEN = "7825783356:AAE4kfmC9rM5kOwMEERSWWOT5GXkp9smZEY"  # Получите у @BotFather
+ADMIN_IDS = [781193231, 722336160]  # Ваш ID (узнайте у @userinfobot)
 
 # Создаем бота
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -307,4 +307,5 @@ if __name__ == '__main__':
         print("Проверьте токен бота и подключение к интернету")
 
         time.sleep(5)
+
 
